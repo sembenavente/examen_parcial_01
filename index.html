@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
 <body>
     <main>
-        <header></header>
+        <header>
+            <img src="images/logoexa.png" width="110px">
+            <label id="titulo">Sistemas de Ventas - Exa01</label>
+        </header>
         <nav>
             <ul>
-                <li class="navOptions">Inicio</li>
-                <li class="navOptions">Ventas</li>
-                <li class="navOptions">Reportes</li>
-                <li class="navOptions">Clientes</li>
-                <li class="navOptions">Productos</li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Ventas</a></li>
+                <li><a href="#">Reportes</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Productos</a></li>
             </ul>
         </nav>
         <aside class="cajon" id="inicio">
@@ -25,7 +30,7 @@
             <section class="subtitulo"><label for="a">Ventas</label></section>
             <div>
                 <label for="">Cliente:</label>
-                <input type="text" placeholder="Cliente">
+                <input type="text" placeholder="Cliente"><button id="buscar"><i class="fas fa-search"></i></button>
             </div>
         </aside>
         <aside class="cajon" id="reportes">
@@ -39,5 +44,6 @@
             <section class="subtitulo"><label for="a">Productos</label></section>
         </aside>
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
